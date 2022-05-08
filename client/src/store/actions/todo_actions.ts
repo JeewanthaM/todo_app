@@ -23,7 +23,7 @@ export async function changeStatus(data: any) {
   let dataToSubmit = {
     title: data.title,
     description: data.description,
-    status: data?.status === "1" ? 0 : 1,
+    status: data?.status == "1" ? 0 : 1,
     endDate: data.endDate,
   };
   const request = await axios.patch(
