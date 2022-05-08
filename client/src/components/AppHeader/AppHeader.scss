@@ -1,0 +1,15 @@
+@import "../../colors.scss";
+
+.header__wrap {
+  background: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+
+  div > h2 {
+      font-weight: bold;
+      color: $primary-text-color;
+      
+  }
+}

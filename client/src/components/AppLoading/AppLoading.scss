@@ -1,0 +1,12 @@
+.app-loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 10vh;
+  bottom: 0;
+  z-index: 10;
+  background-color: aqua;
+  height: 90vh;
+}

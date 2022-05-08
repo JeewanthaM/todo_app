@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+
+.add {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: $primary-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

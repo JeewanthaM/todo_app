@@ -1,0 +1,88 @@
+// .app-button {
+//   font-family: 'Inter';
+//   font-weight: 200;
+//   border: 0;
+//   border-radius: 0.5rem;
+//   cursor: pointer;
+//   display: inline-block;
+//   line-height: 1;
+// }
+// .app-button--primary {
+//   color: white;
+//   background-color: #1ea7fd;
+// }
+// .app-button--secondary {
+//   color: #333;
+//   background-color: transparent;
+//   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+// }
+// .app-button--small {
+//   font-size: 12px;
+//   padding: 10px 16px;
+// }
+// .app-button--medium {
+//   font-size: 14px;
+//   padding: 11px 20px;
+// }
+// .app-button--large {
+//   font-size: 16px;
+//   padding: 12px 24px;
+// }
+
+/* CSS */
+.app-button {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #4bbb46;
+  //box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #4bbb46;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.app-button:hover,
+.app-button:focus {
+  background-color: #4bbb46;
+  color: white;
+}
+
+.app-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.app-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.app-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+// .app-button--primary {
+//   color: white;
+//   background-color: #1ea7fd;
+// }
+// .app-button--secondary {
+//   color: #333;
+//   background-color: transparent;
+//   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+// }
+
+
