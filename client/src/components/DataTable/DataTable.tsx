@@ -151,7 +151,7 @@ function DataTable(props: { isRefreshTable?: boolean }) {
             title: "Status",
             field: "status",
             render: (rowData) => {
-              if (rowData.status === 1) {
+              if (rowData.status == 1) {
                 return "Done";
               }
               return "Pending";
